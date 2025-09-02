@@ -17,3 +17,5 @@ for script in python_files:
     except subprocess.CalledProcessError as e:
         print(e.stdout or "", end="")
         print(e.stderr or "", end="")
+
+ptint("hello")
